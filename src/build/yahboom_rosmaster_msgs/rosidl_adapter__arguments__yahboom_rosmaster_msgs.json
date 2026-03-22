@@ -1,0 +1,7 @@
+{
+  "package_name": "yahboom_rosmaster_msgs",
+  "non_idl_tuples": [
+    "/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_msgs:action/TimedRotation.action",
+    "/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_msgs:srv/SetCleaningState.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+/home/zanef/ros2_ws/src/build/yahboom_rosmaster_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

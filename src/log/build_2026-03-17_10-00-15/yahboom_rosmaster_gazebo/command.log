@@ -1,0 +1,1 @@
+Invoking command in '/home/zanef/ros2_ws/src/build/yahboom_rosmaster_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/src/install/yahboom_rosmaster_gazebo

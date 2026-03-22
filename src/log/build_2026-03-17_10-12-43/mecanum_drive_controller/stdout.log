@@ -1,0 +1,36 @@
+[ 33%] Built target mecanum_drive_controller_parameters
+[ 50%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libmecanum_drive_controller.so[0m
+[100%] Built target mecanum_drive_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller//mecanum_drive_plugin.xml
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/speed_limiter.hpp
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+-- Symlinking: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+-- Installing: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+-- Set non-toolchain portion of runtime path of "/home/zanef/ros2_ws/src/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""
+-- Installing: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+-- Installing: /home/zanef/ros2_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-noconfig.cmake

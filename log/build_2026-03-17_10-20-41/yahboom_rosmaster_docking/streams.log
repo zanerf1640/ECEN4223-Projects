@@ -1,0 +1,26 @@
+[0.040s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_docking -- -j12 -l12
+[0.156s] [100%] Built target detected_dock_pose_publisher
+[0.340s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_docking -- -j12 -l12
+[0.341s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_docking
+[0.359s] -- Install configuration: ""
+[0.359s] -- Execute custom install script
+[0.359s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/lib/yahboom_rosmaster_docking/detected_dock_pose_publisher
+[0.360s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/config/apriltags_36h11.yaml
+[0.360s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/config/dock_database.yaml
+[0.360s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/launch/apriltag_dock_pose_publisher.launch.py
+[0.360s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_docking
+[0.361s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_docking
+[0.361s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/ament_prefix_path.sh
+[0.362s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/ament_prefix_path.dsv
+[0.362s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/path.sh
+[0.362s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/path.dsv
+[0.362s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.bash
+[0.363s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.sh
+[0.363s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.zsh
+[0.363s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.dsv
+[0.363s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/package.dsv
+[0.364s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/ament_index/resource_index/packages/yahboom_rosmaster_docking
+[0.365s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/cmake/yahboom_rosmaster_dockingConfig.cmake
+[0.365s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/cmake/yahboom_rosmaster_dockingConfig-version.cmake
+[0.365s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/package.xml
+[0.395s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_docking

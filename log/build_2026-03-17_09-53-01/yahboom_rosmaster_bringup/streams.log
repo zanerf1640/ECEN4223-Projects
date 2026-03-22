@@ -1,0 +1,53 @@
+[0.024s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_bringup
+[0.343s] -- The C compiler identification is GNU 13.3.0
+[1.333s] -- The CXX compiler identification is GNU 13.3.0
+[2.129s] -- Detecting C compiler ABI info
+[2.456s] -- Detecting C compiler ABI info - done
+[2.467s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.467s] -- Detecting C compile features
+[2.467s] -- Detecting C compile features - done
+[2.581s] -- Detecting CXX compiler ABI info
+[2.943s] -- Detecting CXX compiler ABI info - done
+[2.950s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.950s] -- Detecting CXX compile features
+[2.951s] -- Detecting CXX compile features - done
+[2.956s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.121s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.219s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.264s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.395s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.395s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.397s] -- Added test 'lint_cmake' to check CMake code style
+[3.398s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.400s] -- Added test 'xmllint' to check XML markup files
+[3.404s] -- Configuring done (3.3s)
+[3.410s] -- Generating done (0.0s)
+[3.414s] -- Build files have been written to: /home/zanef/ros2_ws/build/yahboom_rosmaster_bringup
+[3.420s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_bringup
+[3.421s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_bringup -- -j12 -l12
+[3.459s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 16 s in the future
+[3.459s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.469s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_bringup -- -j12 -l12
+[3.482s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_bringup
+[3.492s] -- Install configuration: ""
+[3.493s] -- Execute custom install script
+[3.494s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/launch/load_ros2_controllers.launch.py
+[3.504s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/launch/rosmaster_x3_navigation.launch.py
+[3.516s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/rosmaster_x3_gazebo.sh
+[3.528s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/rosmaster_x3_navigation.sh
+[3.542s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_bringup
+[3.554s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_bringup
+[3.567s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/ament_prefix_path.sh
+[3.578s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/ament_prefix_path.dsv
+[3.590s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/path.sh
+[3.605s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/path.dsv
+[3.619s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.bash
+[3.629s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.sh
+[3.640s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.zsh
+[3.654s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.dsv
+[3.667s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/package.dsv
+[3.678s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/ament_index/resource_index/packages/yahboom_rosmaster_bringup
+[3.692s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/cmake/yahboom_rosmaster_bringupConfig.cmake
+[3.702s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/cmake/yahboom_rosmaster_bringupConfig-version.cmake
+[3.716s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/package.xml
+[3.727s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_bringup

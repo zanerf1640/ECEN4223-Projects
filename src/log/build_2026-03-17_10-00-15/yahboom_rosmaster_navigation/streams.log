@@ -1,0 +1,78 @@
+[0.036s] Invoking command in '/home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation
+[0.209s] -- The C compiler identification is GNU 13.3.0
+[1.122s] -- The CXX compiler identification is GNU 13.3.0
+[2.150s] -- Detecting C compiler ABI info
+[2.431s] -- Detecting C compiler ABI info - done
+[2.441s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.441s] -- Detecting C compile features
+[2.442s] -- Detecting C compile features - done
+[2.561s] -- Detecting CXX compiler ABI info
+[2.843s] -- Detecting CXX compiler ABI info - done
+[2.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.856s] -- Detecting CXX compile features
+[2.856s] -- Detecting CXX compile features - done
+[2.862s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.003s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.116s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.183s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.513s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.537s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.675s] -- Found navigation2: 1.3.10 (/opt/ros/jazzy/share/navigation2/cmake)
+[3.680s] -- Found nav2_bringup: 1.3.10 (/opt/ros/jazzy/share/nav2_bringup/cmake)
+[3.683s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.777s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.783s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.909s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.215s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.686s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.688s] -- Found slam_toolbox: 2.8.3 (/opt/ros/jazzy/share/slam_toolbox/cmake)
+[5.151s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[5.152s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.152s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.430s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[5.431s] -- Found OGRE
+[5.431s] --   static     : OFF
+[5.431s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[5.432s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.432s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[5.432s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[5.432s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[5.432s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.433s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[5.433s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.433s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.434s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.434s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.823s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[9.783s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[16.598s] -- Found X11: /usr/include   
+[16.598s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[16.757s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[16.758s] -- Looking for gethostbyname
+[16.925s] -- Looking for gethostbyname - found
+[16.925s] -- Looking for connect
+[17.098s] -- Looking for connect - found
+[17.098s] -- Looking for remove
+[17.263s] -- Looking for remove - found
+[17.263s] -- Looking for shmat
+[17.427s] -- Looking for shmat - found
+[17.427s] -- Looking for IceConnectionNumber in ICE
+[17.590s] -- Looking for IceConnectionNumber in ICE - found
+[17.655s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[17.821s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[17.903s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.903s] -- Configured cppcheck include dirs: 
+[17.903s] -- Configured cppcheck exclude dirs and/or files: 
+[17.904s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.904s] -- Configured 'flake8' exclude dirs and/or files: 
+[17.905s] -- Added test 'lint_cmake' to check CMake code style
+[17.906s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[17.907s] -- Added test 'uncrustify' to check C / C++ code style
+[17.907s] -- Configured uncrustify additional arguments: 
+[17.907s] -- Added test 'xmllint' to check XML markup files
+[17.909s] -- Configuring done (17.9s)
+[17.920s] -- Generating done (0.0s)
+[17.923s] -- Build files have been written to: /home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation

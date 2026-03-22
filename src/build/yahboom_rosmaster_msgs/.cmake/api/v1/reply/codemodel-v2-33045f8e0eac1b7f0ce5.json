@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6531cf060cee88e5ede2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "yahboom_rosmaster_msgs__py",
+					"jsonFile" : "directory-yahboom_rosmaster_msgs__py-f5ff8b6879d52e56bba9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zanef/ros2_ws/src/build/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "yahboom_rosmaster_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_yahboom_rosmaster_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_yahboom_rosmaster_msgs_egg-ff3d0cab482bf1a36fdd.json",
+					"name" : "ament_cmake_python_build_yahboom_rosmaster_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_yahboom_rosmaster_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_yahboom_rosmaster_msgs-74613f10542834589976.json",
+					"name" : "ament_cmake_python_symlink_yahboom_rosmaster_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-70f94235562ea8fb0178.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs-9e94bd4097445bfe435b.json",
+					"name" : "yahboom_rosmaster_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__cpp-0a42e2ebfdbd6918684c.json",
+					"name" : "yahboom_rosmaster_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yahboom_rosmaster_msgs__py::@0d4791c6d8191a2aaa56",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__py-d61f34fea76701b290f1.json",
+					"name" : "yahboom_rosmaster_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__rosidl_generator_c-9bf0aabb898ca9442ec2.json",
+					"name" : "yahboom_rosmaster_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__rosidl_generator_py-395ec1f2e4f68cadf45c.json",
+					"name" : "yahboom_rosmaster_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__rosidl_generator_type_description-5edfff97aa2f819d6b9e.json",
+					"name" : "yahboom_rosmaster_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__rosidl_typesupport_c-30b5b79a8ab685087a85.json",
+					"name" : "yahboom_rosmaster_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__rosidl_typesupport_cpp-6d12edeea432bfaccc07.json",
+					"name" : "yahboom_rosmaster_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c-1699c39d7d23c788fed7.json",
+					"name" : "yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp-05f05d971683e950a530.json",
+					"name" : "yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c-baee96216f1ff0d819d6.json",
+					"name" : "yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp-ddc9e3b556434d3e659a.json",
+					"name" : "yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs_s__rosidl_typesupport_c-cbbaca4129fe5c902c30.json",
+					"name" : "yahboom_rosmaster_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c-23ed52722b1011b23fe7.json",
+					"name" : "yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c-3fabc8152015f17ee4db.json",
+					"name" : "yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_msgs_uninstall-e5bcd057ee64a4c9494e.json",
+					"name" : "yahboom_rosmaster_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zanef/ros2_ws/src/build/yahboom_rosmaster_msgs",
+		"source" : "/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

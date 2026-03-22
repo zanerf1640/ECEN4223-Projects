@@ -1,0 +1,54 @@
+[0.044s] Invoking command in '/home/zanef/ros2_ws/src/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/src/install/mecanum_drive_controller
+[0.238s] -- The CXX compiler identification is GNU 13.3.0
+[1.289s] -- Detecting CXX compiler ABI info
+[1.637s] -- Detecting CXX compiler ABI info - done
+[1.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.644s] -- Detecting CXX compile features
+[1.644s] -- Detecting CXX compile features - done
+[1.648s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.771s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.829s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.864s] -- Found controller_interface: 4.42.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[2.168s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.183s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.455s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.516s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.520s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.552s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.619s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.624s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.856s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.860s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.872s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.990s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.821s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[3.826s] -- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[3.861s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.906s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[3.914s] -- Found tf2_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[3.971s] -- Found ament_cmake_gmock: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[3.975s] -- Found controller_manager: 4.42.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+[4.095s] -- Found ros2_control_test_assets: 4.42.2 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[4.213s] -- Configuring done (4.2s)
+[4.247s] -- Generating done (0.0s)
+[4.271s] -- Build files have been written to: /home/zanef/ros2_ws/src/build/mecanum_drive_controller
+[4.279s] Invoked command in '/home/zanef/ros2_ws/src/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/src/install/mecanum_drive_controller
+[4.280s] Invoking command in '/home/zanef/ros2_ws/src/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/src/build/mecanum_drive_controller -- -j12 -l12
+[4.338s] [ 16%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/zanef/ros2_ws/src/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller_parameter.yaml `[0m
+[5.773s] [ 33%] [34m[1mCreating deprecated header file /home/zanef/ros2_ws/src/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp[0m
+[5.796s] [ 33%] Built target mecanum_drive_controller_parameters
+[5.817s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[5.820s] [ 66%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[5.822s] [ 83%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[6.283s] In file included from [01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:42[m[K:
+[6.283s] [01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:37:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_thread_sage_box.hpp: No such file or directory
+[6.283s]    37 | #include [01;31m[K"realtime_tools/realtime_thread_sage_box.hpp"[m[K
+[6.283s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.283s] compilation terminated.
+[6.302s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+[6.303s] gmake[2]: *** Waiting for unfinished jobs....
+[6.721s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+[6.722s] gmake: *** [Makefile:146: all] Error 2
+[6.725s] Invoked command in '/home/zanef/ros2_ws/src/build/mecanum_drive_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/src/build/mecanum_drive_controller -- -j12 -l12

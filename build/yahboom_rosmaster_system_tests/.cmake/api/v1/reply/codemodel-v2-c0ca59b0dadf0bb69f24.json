@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-63953f84f8be05da09dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "yahboom_rosmaster_system_tests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_parameters_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_parameters_node-a99c986f15649e0f6883.json",
+					"name" : "mecanum_parameters_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_cleaning_state_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_cleaning_state_service-d3e5d890e91e400ccee9.json",
+					"name" : "set_cleaning_state_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "square_mecanum_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-square_mecanum_controller-a8f6a764a1b0b6a3cd36.json",
+					"name" : "square_mecanum_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timed_rotation_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timed_rotation_action_client-6adbce5d5633fb01e51c.json",
+					"name" : "timed_rotation_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timed_rotation_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timed_rotation_action_server-ff50a5076baed67d9086.json",
+					"name" : "timed_rotation_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a79c4dbc0478e9b12a1d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_system_tests_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_system_tests_uninstall-7d0438f966700dad6c88.json",
+					"name" : "yahboom_rosmaster_system_tests_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests",
+		"source" : "/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

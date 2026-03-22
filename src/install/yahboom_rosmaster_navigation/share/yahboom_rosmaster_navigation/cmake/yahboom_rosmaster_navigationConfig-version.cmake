@@ -1,0 +1,1 @@
+/home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation/ament_cmake_core/yahboom_rosmaster_navigationConfig-version.cmake

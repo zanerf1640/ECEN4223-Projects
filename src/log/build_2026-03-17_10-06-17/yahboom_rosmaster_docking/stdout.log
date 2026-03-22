@@ -1,0 +1,23 @@
+[ 50%] [32m[1mLinking CXX executable detected_dock_pose_publisher[0m
+[100%] Built target detected_dock_pose_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/lib/yahboom_rosmaster_docking/detected_dock_pose_publisher
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/config/apriltags_36h11.yaml
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/config/dock_database.yaml
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/launch/apriltag_dock_pose_publisher.launch.py
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_docking
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_docking
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/ament_prefix_path.sh
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/path.sh
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/path.dsv
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.bash
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.sh
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.zsh
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.dsv
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/package.dsv
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/ament_index/resource_index/packages/yahboom_rosmaster_docking
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/cmake/yahboom_rosmaster_dockingConfig.cmake
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/cmake/yahboom_rosmaster_dockingConfig-version.cmake
+-- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/package.xml

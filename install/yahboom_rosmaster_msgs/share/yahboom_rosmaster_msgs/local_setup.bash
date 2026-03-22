@@ -1,0 +1,1 @@
+/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/local_setup.bash

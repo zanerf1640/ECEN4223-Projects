@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yahboom_rosmaster_msgs__py",
+		"source" : "/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs__py"
+	}
+}

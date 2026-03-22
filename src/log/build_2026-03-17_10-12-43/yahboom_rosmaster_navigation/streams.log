@@ -1,0 +1,50 @@
+[0.033s] Invoking command in '/home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation -- -j12 -l12
+[0.113s] [  0%] Built target ament_cmake_python_symlink_yahboom_rosmaster_navigation
+[0.118s] [100%] Built target cmd_vel_relay
+[0.340s] running egg_info
+[0.356s] writing yahboom_rosmaster_navigation.egg-info/PKG-INFO
+[0.356s] writing dependency_links to yahboom_rosmaster_navigation.egg-info/dependency_links.txt
+[0.356s] writing top-level names to yahboom_rosmaster_navigation.egg-info/top_level.txt
+[0.395s] reading manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+[0.395s] writing manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+[0.423s] [100%] Built target ament_cmake_python_build_yahboom_rosmaster_navigation_egg
+[0.433s] Invoked command in '/home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation -- -j12 -l12
+[0.434s] Invoking command in '/home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation
+[0.440s] -- Install configuration: ""
+[0.440s] -- Execute custom install script
+[0.440s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/cmd_vel_relay
+[0.441s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/config/rosmaster_x3_nav2_default_params.yaml
+[0.441s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/config/rosmaster_x3_nav2_regulated_pure_pursuit_controller.yaml
+[0.441s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/cafe_world_map.pgm
+[0.441s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/cafe_world_map.yaml
+[0.441s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/house_world_map.pgm
+[0.442s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/house_world_map.yaml
+[0.442s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/rviz/nav2_default_view.rviz
+[0.442s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/pythonpath.sh
+[0.442s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/pythonpath.dsv
+[0.442s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/PKG-INFO
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/top_level.txt
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation/__init__.py
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation/posestamped_msg_generator.py
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/assisted_teleoperation.py
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/nav_to_pose.py
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/test_nav_to_pose.py
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_navigation
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_navigation
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/ament_prefix_path.sh
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/ament_prefix_path.dsv
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/path.sh
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/path.dsv
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.bash
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.sh
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.zsh
+[0.443s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.dsv
+[0.443s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/package.dsv
+[0.455s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/packages/yahboom_rosmaster_navigation
+[0.455s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/cmake/yahboom_rosmaster_navigationConfig.cmake
+[0.455s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/cmake/yahboom_rosmaster_navigationConfig-version.cmake
+[0.456s] -- Up-to-date symlink: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/package.xml
+[0.485s] Listing '/home/zanef/ros2_ws/src/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation'...
+[0.511s] Invoked command in '/home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/src/build/yahboom_rosmaster_navigation

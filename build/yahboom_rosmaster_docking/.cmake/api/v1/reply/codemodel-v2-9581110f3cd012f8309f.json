@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ea17556c0d53f97e310b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "yahboom_rosmaster_docking",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "detected_dock_pose_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-detected_dock_pose_publisher-285b668e5e9dd0cdc2da.json",
+					"name" : "detected_dock_pose_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-52c903f31456fcf7c694.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_rosmaster_docking_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_rosmaster_docking_uninstall-0ed0b099dc9f3f8e1454.json",
+					"name" : "yahboom_rosmaster_docking_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zanef/ros2_ws/build/yahboom_rosmaster_docking",
+		"source" : "/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_docking"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

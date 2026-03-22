@@ -1,0 +1,26 @@
+[0.033s] Invoking command in '/home/zanef/ros2_ws/src/build/yahboom_rosmaster_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/src/build/yahboom_rosmaster_docking -- -j12 -l12
+[0.116s] [ 50%] [32m[1mLinking CXX executable detected_dock_pose_publisher[0m
+[0.445s] [100%] Built target detected_dock_pose_publisher
+[0.457s] Invoked command in '/home/zanef/ros2_ws/src/build/yahboom_rosmaster_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/src/build/yahboom_rosmaster_docking -- -j12 -l12
+[0.459s] Invoking command in '/home/zanef/ros2_ws/src/build/yahboom_rosmaster_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/src/build/yahboom_rosmaster_docking
+[0.466s] -- Install configuration: ""
+[0.466s] -- Execute custom install script
+[0.467s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/lib/yahboom_rosmaster_docking/detected_dock_pose_publisher
+[0.478s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/config/apriltags_36h11.yaml
+[0.491s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/config/dock_database.yaml
+[0.504s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/launch/apriltag_dock_pose_publisher.launch.py
+[0.516s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_docking
+[0.530s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_docking
+[0.543s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/ament_prefix_path.sh
+[0.556s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/ament_prefix_path.dsv
+[0.569s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/path.sh
+[0.582s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/path.dsv
+[0.594s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.bash
+[0.606s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.sh
+[0.617s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.zsh
+[0.629s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.dsv
+[0.641s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/package.dsv
+[0.650s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/ament_index/resource_index/packages/yahboom_rosmaster_docking
+[0.659s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/cmake/yahboom_rosmaster_dockingConfig.cmake
+[0.671s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/cmake/yahboom_rosmaster_dockingConfig-version.cmake
+[0.678s] -- Symlinking: /home/zanef/ros2_ws/src/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/package.xml

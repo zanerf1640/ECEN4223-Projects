@@ -1,0 +1,12 @@
+[0.043s] Invoking command in '/home/zanef/ros2_ws/src/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/src/build/mecanum_drive_controller -- -j12 -l12
+[0.113s] [ 33%] Built target mecanum_drive_controller_parameters
+[0.150s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[0.528s] In file included from [01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:42[m[K:
+[0.528s] [01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:38:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_thread_sage_box.hpp: No such file or directory
+[0.528s]    38 | #include [01;31m[K"realtime_tools/realtime_thread_sage_box.hpp"[m[K
+[0.528s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.528s] compilation terminated.
+[0.531s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+[0.532s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+[0.532s] gmake: *** [Makefile:146: all] Error 2
+[0.534s] Invoked command in '/home/zanef/ros2_ws/src/build/mecanum_drive_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/src/build/mecanum_drive_controller -- -j12 -l12

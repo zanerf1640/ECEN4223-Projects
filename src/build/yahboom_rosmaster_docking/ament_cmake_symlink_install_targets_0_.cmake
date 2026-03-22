@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zanef/ros2_ws/src/build/yahboom_rosmaster_docking/detected_dock_pose_publisher" "TARGETS" "detected_dock_pose_publisher" "DESTINATION" "lib/yahboom_rosmaster_docking")
