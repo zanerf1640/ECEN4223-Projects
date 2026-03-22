@@ -1,0 +1,135 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/zanef/ros2_ws/build/yahboom_rosmaster_projects
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_projects
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_projects
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/environment/ament_prefix_path.sh
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/environment/path.sh
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/environment/path.dsv
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/local_setup.bash
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/local_setup.sh
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/local_setup.zsh
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/local_setup.dsv
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/package.dsv
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/ament_index/resource_index/packages/yahboom_rosmaster_projects
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/cmake/yahboom_rosmaster_projectsConfig.cmake
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/cmake/yahboom_rosmaster_projectsConfig-version.cmake
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/package.xml
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/launch/gz_home_like.launch.py
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/worlds/home_like.world
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/worlds/rosmaster_home.world
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_2.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_2.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_2.sdf:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_3.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_3.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_3.sdf:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_4.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_4.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_4.sdf:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.config
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.config:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.config:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.sdf:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/materials/textures/Maple.jpg
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/materials/textures/Maple.jpg:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/materials/textures/Wood_Floor_Dark.jpg
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/materials/textures/Wood_Floor_Dark.jpg:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/meshes/cafe_table.dae
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/meshes/cafe_table.dae:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model-1_4.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model-1_4.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model.config
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model.config:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/materials/textures/cardboard_box.png
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/materials/textures/cardboard_box.png:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/materials/textures/cardboard_box.png:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/meshes/cardboard_box.dae
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/meshes/cardboard_box.dae:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/meshes/cardboard_box.dae:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.config
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.config:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.config:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.sdf:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/meshes/trash_can.dae
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/meshes/trash_can.dae:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/model.config
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/model.config:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/model.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/model.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/scripts/mailbox.material
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/scripts/mailbox.material:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Diffuse.png
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Diffuse.png:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Diffuse.tga.orig
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Diffuse.tga.orig:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Spec.png
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Spec.png:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/meshes/mailbox.dae
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/meshes/mailbox.dae:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model-1_3.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model-1_3.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model-1_4.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model-1_4.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model.config
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model.config:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_2.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_2.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_2.sdf:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_3.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_3.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_3.sdf:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_4.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_4.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_4.sdf:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.config
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.config:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.config:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.sdf
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.sdf:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.sdf:Zone.Identifier:Zone.Identifier
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/lib/yahboom_rosmaster_projects/ground_truth_extractor.py
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/lib/yahboom_rosmaster_projects/openloop_control.py

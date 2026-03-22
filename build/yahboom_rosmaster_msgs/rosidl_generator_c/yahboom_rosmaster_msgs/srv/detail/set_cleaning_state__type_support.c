@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__functions.h"
-#include "yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__struct.h"
+#include "yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.h"
+#include "yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

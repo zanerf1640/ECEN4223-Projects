@@ -1,0 +1,29 @@
+[ 50%] Built target set_cleaning_state_service
+[ 50%] Built target mecanum_parameters_node
+[ 60%] Built target square_mecanum_controller
+[ 80%] Built target timed_rotation_action_server
+[100%] Built target timed_rotation_action_client
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/config/mecanum_parameters.yaml
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/launch/mecanum_parameters.launch.py
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/lib/yahboom_rosmaster_system_tests/square_mecanum_controller
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/lib/yahboom_rosmaster_system_tests/mecanum_parameters_node
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/lib/yahboom_rosmaster_system_tests/timed_rotation_action_server
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/lib/yahboom_rosmaster_system_tests/timed_rotation_action_client
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/lib/yahboom_rosmaster_system_tests/set_cleaning_state_service
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_system_tests
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_system_tests
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/environment/ament_prefix_path.sh
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/environment/path.sh
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/environment/path.dsv
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/local_setup.bash
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/local_setup.sh
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/local_setup.zsh
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/local_setup.dsv
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/package.dsv
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/ament_index/resource_index/packages/yahboom_rosmaster_system_tests
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/cmake/yahboom_rosmaster_system_testsConfig.cmake
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/cmake/yahboom_rosmaster_system_testsConfig-version.cmake
+-- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/share/yahboom_rosmaster_system_tests/package.xml

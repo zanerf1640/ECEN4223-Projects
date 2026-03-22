@@ -4,6 +4,7 @@
 /home/zanef/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
 /home/zanef/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/speed_limiter.hpp
 /home/zanef/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+/home/zanef/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.hpp
 /home/zanef/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
 /home/zanef/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
 /home/zanef/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller

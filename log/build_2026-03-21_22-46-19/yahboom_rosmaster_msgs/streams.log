@@ -1,0 +1,103 @@
+[0.022s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs
+[0.155s] -- The C compiler identification is GNU 13.3.0
+[0.810s] -- The CXX compiler identification is GNU 13.3.0
+[1.350s] -- Detecting C compiler ABI info
+[1.566s] -- Detecting C compiler ABI info - done
+[1.570s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.570s] -- Detecting C compile features
+[1.571s] -- Detecting C compile features - done
+[1.657s] -- Detecting CXX compiler ABI info
+[1.849s] -- Detecting CXX compiler ABI info - done
+[1.854s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.854s] -- Detecting CXX compile features
+[1.854s] -- Detecting CXX compile features - done
+[1.857s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.944s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.988s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.018s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.172s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.581s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.147s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.223s] -- Found PythonExtra: /usr/bin/python3  
+[3.491s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.519s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.536s] -- Added test 'lint_cmake' to check CMake code style
+[3.537s] -- Added test 'xmllint' to check XML markup files
+[3.539s] -- Configuring done (3.5s)
+[3.566s] -- Generating done (0.0s)
+[3.573s] -- Build files have been written to: /home/zanef/ros2_ws/build/yahboom_rosmaster_msgs
+[3.583s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs
+[3.584s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_msgs -- -j16 -l16
+[3.620s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.629s] [  2%] Built target ament_cmake_python_symlink_yahboom_rosmaster_msgs
+[3.735s] running egg_info
+[3.735s] creating yahboom_rosmaster_msgs.egg-info
+[3.743s] writing yahboom_rosmaster_msgs.egg-info/PKG-INFO
+[3.743s] writing dependency_links to yahboom_rosmaster_msgs.egg-info/dependency_links.txt
+[3.744s] writing top-level names to yahboom_rosmaster_msgs.egg-info/top_level.txt
+[3.744s] writing manifest file 'yahboom_rosmaster_msgs.egg-info/SOURCES.txt'
+[3.766s] reading manifest file 'yahboom_rosmaster_msgs.egg-info/SOURCES.txt'
+[3.766s] writing manifest file 'yahboom_rosmaster_msgs.egg-info/SOURCES.txt'
+[3.785s] [  2%] Built target ament_cmake_python_build_yahboom_rosmaster_msgs_egg
+[3.791s] [  2%] Built target yahboom_rosmaster_msgs__rosidl_generator_type_description
+[3.798s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.804s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.078s] [  6%] Built target yahboom_rosmaster_msgs__cpp
+[4.105s] [  9%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__description.c.o[0m
+[4.105s] [ 11%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__description.c.o[0m
+[4.105s] [ 13%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__functions.c.o[0m
+[4.106s] [ 15%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support.c.o[0m
+[4.106s] [ 20%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__functions.c.o[0m
+[4.106s] [ 20%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.c.o[0m
+[4.194s] [ 22%] [32m[1mLinking C shared library libyahboom_rosmaster_msgs__rosidl_generator_c.so[0m
+[4.302s] [ 22%] Built target yahboom_rosmaster_msgs__rosidl_generator_c
+[4.309s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.309s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.310s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.310s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.310s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.310s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.570s] [ 38%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboom_rosmaster_msgs/action/timed_rotation__type_support.cpp.o[0m
+[4.571s] [ 40%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboom_rosmaster_msgs/srv/set_cleaning_state__type_support.cpp.o[0m
+[4.585s] [ 47%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support.cpp.o[0m
+[4.585s] [ 47%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboom_rosmaster_msgs/srv/set_cleaning_state__type_support.cpp.o[0m
+[4.585s] [ 47%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.cpp.o[0m
+[4.586s] [ 50%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboom_rosmaster_msgs/action/timed_rotation__type_support.cpp.o[0m
+[4.630s] [ 52%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_c.so[0m
+[4.652s] [ 54%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support.c.o[0m
+[4.655s] [ 56%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.c.o[0m
+[4.700s] [ 59%] [32m[1mLinking C shared library libyahboom_rosmaster_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.733s] [ 63%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboom_rosmaster_msgs/action/detail/dds_fastrtps/timed_rotation__type_support.cpp.o[0m
+[4.733s] [ 63%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboom_rosmaster_msgs/srv/detail/dds_fastrtps/set_cleaning_state__type_support.cpp.o[0m
+[4.762s] [ 65%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support_c.cpp.o[0m
+[4.766s] [ 68%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support_c.cpp.o[0m
+[4.780s] [ 68%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_c
+[4.851s] [ 68%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c
+[5.109s] [ 70%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_cpp.so[0m
+[5.167s] [ 72%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.217s] [ 75%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.241s] [ 75%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_cpp
+[5.299s] [ 75%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp
+[5.342s] [ 75%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c
+[5.404s] [ 77%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.537s] [ 77%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp
+[5.550s] [ 77%] Built target yahboom_rosmaster_msgs
+[5.565s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.041s] [ 79%] Built target yahboom_rosmaster_msgs__py
+[6.053s] [ 81%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboom_rosmaster_msgs/action/_timed_rotation_s.c.o[0m
+[6.053s] [ 84%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboom_rosmaster_msgs/srv/_set_cleaning_state_s.c.o[0m
+[6.150s] [ 86%] [32m[1mLinking C shared library libyahboom_rosmaster_msgs__rosidl_generator_py.so[0m
+[6.263s] [ 86%] Built target yahboom_rosmaster_msgs__rosidl_generator_py
+[6.276s] [ 93%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/yahboom_rosmaster_msgs/_yahboom_rosmaster_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.276s] [ 93%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/yahboom_rosmaster_msgs/_yahboom_rosmaster_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.276s] [ 93%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/yahboom_rosmaster_msgs/_yahboom_rosmaster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.349s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[6.349s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.353s] [100%] [32m[1mLinking C shared module rosidl_generator_py/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_c.so[0m
+[6.430s] [100%] Built target yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c
+[6.430s] [100%] Built target yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c
+[6.443s] [100%] Built target yahboom_rosmaster_msgs_s__rosidl_typesupport_c

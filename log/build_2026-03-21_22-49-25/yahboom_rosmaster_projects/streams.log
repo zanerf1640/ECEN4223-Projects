@@ -1,0 +1,141 @@
+[0.043s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_projects': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_projects -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_projects
+[0.238s] -- The C compiler identification is GNU 13.3.0
+[0.824s] -- The CXX compiler identification is GNU 13.3.0
+[1.400s] -- Detecting C compiler ABI info
+[1.630s] -- Detecting C compiler ABI info - done
+[1.634s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.635s] -- Detecting C compile features
+[1.635s] -- Detecting C compile features - done
+[1.730s] -- Detecting CXX compiler ABI info
+[1.965s] -- Detecting CXX compiler ABI info - done
+[1.969s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.969s] -- Detecting CXX compile features
+[1.970s] -- Detecting CXX compile features - done
+[1.972s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.058s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.097s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.125s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.268s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.278s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.346s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.349s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.400s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.582s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.854s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.863s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.925s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.925s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.926s] -- Added test 'lint_cmake' to check CMake code style
+[2.926s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.929s] -- Added test 'xmllint' to check XML markup files
+[2.931s] -- Configuring done (2.9s)
+[2.934s] -- Generating done (0.0s)
+[2.935s] -- Build files have been written to: /home/zanef/ros2_ws/build/yahboom_rosmaster_projects
+[2.941s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_projects' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_projects -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_projects
+[2.942s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_projects': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_projects -- -j16 -l16
+[2.965s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_projects' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_projects -- -j16 -l16
+[2.966s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_projects': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_projects
+[2.969s] -- Install configuration: ""
+[2.969s] -- Execute custom install script
+[2.970s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_projects
+[2.974s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_projects
+[2.979s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/environment/ament_prefix_path.sh
+[2.983s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/environment/ament_prefix_path.dsv
+[2.988s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/environment/path.sh
+[2.992s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/environment/path.dsv
+[2.996s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/local_setup.bash
+[3.001s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/local_setup.sh
+[3.005s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/local_setup.zsh
+[3.010s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/local_setup.dsv
+[3.014s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/package.dsv
+[3.019s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/ament_index/resource_index/packages/yahboom_rosmaster_projects
+[3.023s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/cmake/yahboom_rosmaster_projectsConfig.cmake
+[3.028s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/cmake/yahboom_rosmaster_projectsConfig-version.cmake
+[3.032s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/package.xml
+[3.036s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/launch/gz_home_like.launch.py
+[3.041s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/worlds/home_like.world
+[3.045s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/worlds/rosmaster_home.world
+[3.049s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_2.sdf
+[3.054s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_2.sdf:Zone.Identifier
+[3.058s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_2.sdf:Zone.Identifier:Zone.Identifier
+[3.063s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_3.sdf
+[3.067s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_3.sdf:Zone.Identifier
+[3.072s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_3.sdf:Zone.Identifier:Zone.Identifier
+[3.076s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_4.sdf
+[3.080s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_4.sdf:Zone.Identifier
+[3.084s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_4.sdf:Zone.Identifier:Zone.Identifier
+[3.088s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.config
+[3.092s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.config:Zone.Identifier
+[3.096s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.config:Zone.Identifier:Zone.Identifier
+[3.100s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.sdf
+[3.105s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.sdf:Zone.Identifier
+[3.109s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model.sdf:Zone.Identifier:Zone.Identifier
+[3.114s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/materials/textures/Maple.jpg
+[3.118s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/materials/textures/Maple.jpg:Zone.Identifier
+[3.122s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/materials/textures/Wood_Floor_Dark.jpg
+[3.127s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/materials/textures/Wood_Floor_Dark.jpg:Zone.Identifier
+[3.131s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/meshes/cafe_table.dae
+[3.136s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/meshes/cafe_table.dae:Zone.Identifier
+[3.140s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model-1_4.sdf
+[3.144s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model-1_4.sdf:Zone.Identifier
+[3.148s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model.config
+[3.152s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model.config:Zone.Identifier
+[3.156s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model.sdf
+[3.160s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cafe_table/model.sdf:Zone.Identifier
+[3.164s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/materials/textures/cardboard_box.png
+[3.168s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/materials/textures/cardboard_box.png:Zone.Identifier
+[3.172s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/materials/textures/cardboard_box.png:Zone.Identifier:Zone.Identifier
+[3.176s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/meshes/cardboard_box.dae
+[3.180s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/meshes/cardboard_box.dae:Zone.Identifier
+[3.184s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/meshes/cardboard_box.dae:Zone.Identifier:Zone.Identifier
+[3.188s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.config
+[3.192s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.config:Zone.Identifier
+[3.196s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.config:Zone.Identifier:Zone.Identifier
+[3.200s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.sdf
+[3.205s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.sdf:Zone.Identifier
+[3.209s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/cardboard_box/model.sdf:Zone.Identifier:Zone.Identifier
+[3.213s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/meshes/trash_can.dae
+[3.217s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/meshes/trash_can.dae:Zone.Identifier
+[3.221s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/model.config
+[3.224s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/model.config:Zone.Identifier
+[3.228s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/model.sdf
+[3.232s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/first_2015_trash_can/model.sdf:Zone.Identifier
+[3.236s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/scripts/mailbox.material
+[3.240s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/scripts/mailbox.material:Zone.Identifier
+[3.244s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Diffuse.png
+[3.248s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Diffuse.png:Zone.Identifier
+[3.252s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Diffuse.tga.orig
+[3.256s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Diffuse.tga.orig:Zone.Identifier
+[3.260s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Spec.png
+[3.264s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/materials/textures/Mailbox_Spec.png:Zone.Identifier
+[3.268s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/meshes/mailbox.dae
+[3.272s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/meshes/mailbox.dae:Zone.Identifier
+[3.276s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model-1_3.sdf
+[3.280s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model-1_3.sdf:Zone.Identifier
+[3.285s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model-1_4.sdf
+[3.289s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model-1_4.sdf:Zone.Identifier
+[3.294s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model.config
+[3.298s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model.config:Zone.Identifier
+[3.302s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model.sdf
+[3.307s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/mailbox/model.sdf:Zone.Identifier
+[3.311s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_2.sdf
+[3.316s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_2.sdf:Zone.Identifier
+[3.319s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_2.sdf:Zone.Identifier:Zone.Identifier
+[3.323s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_3.sdf
+[3.328s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_3.sdf:Zone.Identifier
+[3.332s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_3.sdf:Zone.Identifier:Zone.Identifier
+[3.336s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_4.sdf
+[3.340s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_4.sdf:Zone.Identifier
+[3.344s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model-1_4.sdf:Zone.Identifier:Zone.Identifier
+[3.348s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.config
+[3.352s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.config:Zone.Identifier
+[3.356s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.config:Zone.Identifier:Zone.Identifier
+[3.360s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.sdf
+[3.364s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.sdf:Zone.Identifier
+[3.369s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.sdf:Zone.Identifier:Zone.Identifier
+[3.374s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/lib/yahboom_rosmaster_projects/ground_truth_extractor.py
+[3.378s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/lib/yahboom_rosmaster_projects/openloop_control.py
+[3.383s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_projects' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_projects

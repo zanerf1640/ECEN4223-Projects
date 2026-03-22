@@ -1,0 +1,36 @@
+[ 33%] Built target mecanum_drive_controller_parameters
+[ 50%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+In file included from [01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:42[m[K:
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:224:19:[m[K [01;31m[Kerror: [m[K‘[01m[KRealTimeThreadSafeBox[m[K’ in namespace ‘[01m[Krealtime_tools[m[K’ does not name a template type; did you mean ‘[01m[KRealtimeThreadSafeBox[m[K’?
+  224 |   realtime_tools::[01;31m[KRealTimeThreadSafeBox[m[K<std::shared_ptr<Twist>>received_velocity_msg_ptr_;
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[KRealtimeThreadSafeBox[m[K
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type mecanum_drive_controller::MecanumDriveController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:135:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_velocity_msg_ptr_[m[K’ was not declared in this scope
+  135 |   [01;31m[Kreceived_velocity_msg_ptr_[m[K.get(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn mecanum_drive_controller::MecanumDriveController::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:426:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_velocity_msg_ptr_[m[K’ was not declared in this scope
+  426 |   [01;31m[Kreceived_velocity_msg_ptr_[m[K.set(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In lambda function:
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:452:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_velocity_msg_ptr_[m[K’ is not captured
+  452 |       [01;31m[Kreceived_velocity_msg_ptr_[m[K.set(
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:438:10:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  438 |     [this[01;36m[K][m[K(const std::shared_ptr<Twist> msg) -> void {
+      |          [01;36m[K^[m[K
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:426:3:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>received_velocity_msg_ptr_[m[K’ declared here
+  426 |   [01;36m[Kreceived_velocity_msg_ptr_[m[K.set(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn mecanum_drive_controller::MecanumDriveController::[01;32m[Kon_cleanup[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:594:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_velocity_msg_ptr_[m[K’ was not declared in this scope
+  594 |   [01;31m[Kreceived_velocity_msg_ptr_[m[K.set([](std::shared_ptr<Twist> & stored_msg) {
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kbool mecanum_drive_controller::MecanumDriveController::[01;32m[Kreset[m[K()[m[K’:
+[01m[K/home/zanef/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller/src/mecanum_drive_controller.cpp:643:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_velocity_msg_ptr_[m[K’ was not declared in this scope
+  643 |   [01;31m[Kreceived_velocity_msg_ptr_[m[K.set(nullptr);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

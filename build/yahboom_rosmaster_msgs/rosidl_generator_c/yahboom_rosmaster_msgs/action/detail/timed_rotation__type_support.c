@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "yahboom_rosmaster_msgs/action/detail/timed_rotation__struct.h"
 #include "yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support.h"
 #include "yahboom_rosmaster_msgs/action/detail/timed_rotation__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "yahboom_rosmaster_msgs/action/detail/timed_rotation__struct.h"
 
 #ifdef __cplusplus
 extern "C"

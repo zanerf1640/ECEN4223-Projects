@@ -1,0 +1,14 @@
+[0.021s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_navigation -- -j16 -l16
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_relay.dir/src/cmd_vel_relay_node.cpp.o[0m
+[0.059s] [ 50%] Built target ament_cmake_python_symlink_yahboom_rosmaster_navigation
+[0.192s] running egg_info
+[0.192s] creating yahboom_rosmaster_navigation.egg-info
+[0.201s] writing yahboom_rosmaster_navigation.egg-info/PKG-INFO
+[0.201s] writing dependency_links to yahboom_rosmaster_navigation.egg-info/dependency_links.txt
+[0.202s] writing top-level names to yahboom_rosmaster_navigation.egg-info/top_level.txt
+[0.202s] writing manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+[0.227s] reading manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+[0.227s] writing manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+[0.246s] [ 50%] Built target ament_cmake_python_build_yahboom_rosmaster_navigation_egg
+[5.224s] [100%] [32m[1mLinking CXX executable cmd_vel_relay[0m
+[5.464s] [100%] Built target cmd_vel_relay

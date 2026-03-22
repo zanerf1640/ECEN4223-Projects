@@ -1,0 +1,54 @@
+[0.020s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_localization
+[0.143s] -- The C compiler identification is GNU 13.3.0
+[0.773s] -- The CXX compiler identification is GNU 13.3.0
+[1.342s] -- Detecting C compiler ABI info
+[1.577s] -- Detecting C compiler ABI info - done
+[1.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.583s] -- Detecting C compile features
+[1.583s] -- Detecting C compile features - done
+[1.652s] -- Detecting CXX compiler ABI info
+[1.839s] -- Detecting CXX compiler ABI info - done
+[1.847s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.847s] -- Detecting CXX compile features
+[1.848s] -- Detecting CXX compile features - done
+[1.850s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.943s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.989s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.019s] -- Found robot_localization: 3.8.3 (/opt/ros/jazzy/share/robot_localization/cmake)
+[2.135s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.145s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.287s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.365s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.365s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.366s] -- Added test 'lint_cmake' to check CMake code style
+[2.366s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.367s] -- Added test 'xmllint' to check XML markup files
+[2.368s] -- Configuring done (2.3s)
+[2.371s] -- Generating done (0.0s)
+[2.373s] -- Build files have been written to: /home/zanef/ros2_ws/build/yahboom_rosmaster_localization
+[2.380s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_localization
+[2.381s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_localization -- -j16 -l16
+[2.406s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_localization -- -j16 -l16
+[2.407s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_localization
+[2.411s] -- Install configuration: ""
+[2.411s] -- Execute custom install script
+[2.412s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/config/ekf.yaml
+[2.417s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/launch/ekf_gazebo.launch.py
+[2.422s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_localization
+[2.426s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_localization
+[2.431s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/environment/ament_prefix_path.sh
+[2.435s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/environment/ament_prefix_path.dsv
+[2.439s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/environment/path.sh
+[2.444s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/environment/path.dsv
+[2.449s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/local_setup.bash
+[2.454s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/local_setup.sh
+[2.459s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/local_setup.zsh
+[2.464s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/local_setup.dsv
+[2.470s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/package.dsv
+[2.475s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/ament_index/resource_index/packages/yahboom_rosmaster_localization
+[2.480s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/cmake/yahboom_rosmaster_localizationConfig.cmake
+[2.486s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/cmake/yahboom_rosmaster_localizationConfig-version.cmake
+[2.492s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/package.xml
+[2.498s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_localization

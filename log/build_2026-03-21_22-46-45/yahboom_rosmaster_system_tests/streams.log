@@ -1,0 +1,60 @@
+[0.152s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests': AMENT_PREFIX_PATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests
+[0.284s] -- The C compiler identification is GNU 13.3.0
+[0.959s] -- The CXX compiler identification is GNU 13.3.0
+[1.576s] -- Detecting C compiler ABI info
+[1.825s] -- Detecting C compiler ABI info - done
+[1.830s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.830s] -- Detecting C compile features
+[1.830s] -- Detecting C compile features - done
+[1.924s] -- Detecting CXX compiler ABI info
+[2.157s] -- Detecting CXX compiler ABI info - done
+[2.162s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.162s] -- Detecting CXX compile features
+[2.162s] -- Detecting CXX compile features - done
+[2.165s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.249s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.294s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.320s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.469s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.477s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.549s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.551s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.605s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.793s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.892s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.065s] -- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[3.092s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.110s] -- Found yahboom_rosmaster_msgs: 0.0.0 (/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake)
+[3.126s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.194s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.194s] -- Configured cppcheck include dirs: 
+[3.194s] -- Configured cppcheck exclude dirs and/or files: 
+[3.194s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.194s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.195s] -- Added test 'lint_cmake' to check CMake code style
+[3.196s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.196s] -- Added test 'uncrustify' to check C / C++ code style
+[3.196s] -- Configured uncrustify additional arguments: 
+[3.197s] -- Added test 'xmllint' to check XML markup files
+[3.198s] -- Configuring done (3.0s)
+[3.221s] -- Generating done (0.0s)
+[3.229s] -- Build files have been written to: /home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests
+[3.239s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests' returned '0': AMENT_PREFIX_PATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests
+[3.241s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests': AMENT_PREFIX_PATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests -- -j16 -l16
+[3.272s] [ 20%] [32mBuilding CXX object CMakeFiles/mecanum_parameters_node.dir/src/mecanum_parameters_node.cpp.o[0m
+[3.272s] [ 20%] [32mBuilding CXX object CMakeFiles/square_mecanum_controller.dir/src/square_mecanum_controller.cpp.o[0m
+[3.272s] [ 30%] [32mBuilding CXX object CMakeFiles/set_cleaning_state_service.dir/src/set_cleaning_state_service.cpp.o[0m
+[3.272s] [ 40%] [32mBuilding CXX object CMakeFiles/timed_rotation_action_server.dir/src/timed_rotation_action_server.cpp.o[0m
+[3.272s] [ 50%] [32mBuilding CXX object CMakeFiles/timed_rotation_action_client.dir/src/timed_rotation_action_client.cpp.o[0m
+[5.534s] [ 60%] [32m[1mLinking CXX executable set_cleaning_state_service[0m
+[5.730s] [ 60%] Built target set_cleaning_state_service
+[6.035s] [ 70%] [32m[1mLinking CXX executable square_mecanum_controller[0m
+[6.146s] [ 80%] [32m[1mLinking CXX executable mecanum_parameters_node[0m
+[6.230s] [ 80%] Built target square_mecanum_controller
+[6.335s] [ 80%] Built target mecanum_parameters_node
+[6.958s] [ 90%] [32m[1mLinking CXX executable timed_rotation_action_server[0m
+[7.145s] [ 90%] Built target timed_rotation_action_server
+[8.697s] [100%] [32m[1mLinking CXX executable timed_rotation_action_client[0m
+[8.939s] [100%] Built target timed_rotation_action_client
