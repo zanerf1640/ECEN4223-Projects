@@ -1,0 +1,6 @@
+[submodule "src/yahboom_rosmaster/src/yahboom_rosmaster/yahboom_rosmaster_projects"]
+	path = src/yahboom_rosmaster/src/yahboom_rosmaster/yahboom_rosmaster_projects
+	url = https://github.com/automaticaddison/yahboom_rosmaster
+[submodule "src/yahboom_rosmaster2"]
+	path = src/yahboom_rosmaster2
+	url = https://github.com/automaticaddison/yahboom_rosmaster
