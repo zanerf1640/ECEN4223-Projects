@@ -51,6 +51,7 @@ class HolonomicPurePursuit(Node):
 
         self.declare_parameter("cmd_topic", "/mecanum_drive_controller/cmd_vel")
         self.declare_parameter("pose_topic", "/mecanum_drive_controller/odom")
+        self.declare_parameter("use_world_pose", False)
 
         self.side = float(self.get_parameter("side_length_m").value)
         self.cycles_total = int(self.get_parameter("cycles").value)
@@ -65,14 +66,15 @@ class HolonomicPurePursuit(Node):
 
         self.cmd_topic = str(self.get_parameter("cmd_topic").value)
         self.pose_topic = str(self.get_parameter("pose_topic").value)
+        self.use_world_pose = bool(self.get_parameter("use_world_pose").value)
 
         # Square path
         self.waypoints: List[Tuple[float, float]] = [
-            (1.0, 0.0),
-            (4.0, 0.0),
-            (4.0, 3.0),
-            (1.0, 3.0),
-            (1.0, 0.0),
+            (0.0, 0.0),
+            (3.0, 0.0),
+            (3.0, 3.0),
+            (0.0, 3.0),
+            (0.0, 0.0),
         ]
 
         # Precompute path lengths
@@ -97,13 +99,14 @@ class HolonomicPurePursuit(Node):
 
         # ROS interfaces
         self.cmd_pub = self.create_publisher(TwistStamped, self.cmd_topic, 10)
-        self.pose_sub = self.create_subscription(
-            Odometry, self.pose_topic, self._on_odom, 20
-        )
-        # Optional for world pose:
-        # self.pose_sub = self.create_subscription(
-        #     PoseStamped, self.pose_topic, self._on_pose, 20
-        # )
+        if self.use_world_pose:
+            self.pose_sub = self.create_subscription(
+                PoseStamped, self.pose_topic, self._on_pose, 20
+            )
+        else:
+            self.pose_sub = self.create_subscription(
+                Odometry, self.pose_topic, self._on_odom, 20
+            )
 
         self.timer = self.create_timer(1.0 / self.hz, self._on_timer)
 
@@ -128,11 +131,37 @@ class HolonomicPurePursuit(Node):
     def _on_timer(self) -> None:
         if not self.have_pose:
             return
+        
+        # 1. Get current position on the 0-12m loop
+        s_closest, dist = self._closest_s_on_loop(self.x, self.y)
+        
+        # 2. Calculate what s_progress SHOULD be based on current lap
+        # This handles the transition from lap 0 to lap 1, etc.
+        s_candidate = (self.completed_cycles * self.path_length) + s_closest
+        
+        # 3. Handle the jump when crossing the finish line
+        # If s_closest is near the start but our progress is near the end of a lap,
+        # it means we've crossed into the NEXT lap.
+        if s_closest < (self.path_length * 0.25) and \
+           (self.s_progress % self.path_length) > (self.path_length * 0.75):
+            s_candidate += self.path_length
 
-        if self.completed_cycles >= self.cycles_total:
+        # 4. Update progress (never let it go backwards)
+        self.s_progress = max(self.s_progress, s_candidate)
+
+        # 5. Check if we've completed the required distance
+        if self.s_progress >= (self.cycles_total * self.path_length):
             self._publish_stop()
+            self.get_logger().info("All cycles completed. Stopping.")
             return
 
+        # 6. Update completed_cycles counter for the s_candidate logic
+        self.completed_cycles = int(self.s_progress // self.path_length)
+
+        # 7. Rest of your carrot and velocity logic...
+        s_goal = self.s_progress + self.Ld
+        xg, yg = self._point_at_s(s_goal)
+        
         # --------------------------------------------------
         # TODO 1:
         # Find the closest point on the path to the robot.
@@ -163,10 +192,11 @@ class HolonomicPurePursuit(Node):
         xg, yg = self._point_at_s(s_goal)
 
         # Count cycles approximately
-        if s_goal >= (self.completed_cycles + 1) * self.path_length:
+        if self.s_progress >= (self.completed_cycles + 1) * self.path_length:
             self.completed_cycles += 1
             if self.completed_cycles >= self.cycles_total:
                 self._publish_stop()
+                self.get_logger().info("Path completed")
                 return
 
         # Error in world frame

@@ -128,7 +128,7 @@ class HolonomicPurePursuit(Node):
     def _on_timer(self) -> None:
         if not self.have_pose:
             return
-
+        
         # 1. Get current position on the 0-12m loop
         s_closest, dist = self._closest_s_on_loop(self.x, self.y)
         
@@ -158,6 +158,7 @@ class HolonomicPurePursuit(Node):
         # 7. Rest of your carrot and velocity logic...
         s_goal = self.s_progress + self.Ld
         xg, yg = self._point_at_s(s_goal)
+        
         # --------------------------------------------------
         # TODO 1:
         # Find the closest point on the path to the robot.
