@@ -22,11 +22,12 @@ from rclpy.node import Node
 from geometry_msgs.msg import TwistStamped, PoseStamped
 from nav_msgs.msg import Odometry
 
-
+# Helper function to clamp a value between a minimum and maximum
 def clamp(x: float, lo: float, hi: float) -> float:
     return max(lo, min(hi, x))
 
 
+# Helper function to convert quaternion to yaw angle
 def yaw_from_quat(x: float, y: float, z: float, w: float) -> float:
     siny_cosp = 2.0 * (w * z + x * y)
     cosy_cosp = 1.0 - 2.0 * (y * y + z * z)
@@ -34,6 +35,7 @@ def yaw_from_quat(x: float, y: float, z: float, w: float) -> float:
 
 
 class HolonomicPurePursuit(Node):
+    # Initialize the node, declare parameters, and set up publishers/subscribers
     def __init__(self) -> None:
         super().__init__("holonomic_pure_pursuit")
 
@@ -95,7 +97,7 @@ class HolonomicPurePursuit(Node):
         self.s_progress = 0.0
         self.completed_cycles = 0
 
-        # ROS interfaces
+        # ROS interfaces using odometry for pose feedback
         self.cmd_pub = self.create_publisher(TwistStamped, self.cmd_topic, 10)
         self.pose_sub = self.create_subscription(
             Odometry, self.pose_topic, self._on_odom, 20
@@ -109,6 +111,8 @@ class HolonomicPurePursuit(Node):
 
         self.get_logger().info("Holonomic Pure Pursuit starter node running.")
 
+
+    # For odometry feedback, we extract the robot pose from the Odometry message
     def _on_odom(self, msg: Odometry) -> None:
         p = msg.pose.pose.position
         q = msg.pose.pose.orientation
@@ -117,6 +121,8 @@ class HolonomicPurePursuit(Node):
         self.yaw = yaw_from_quat(q.x, q.y, q.z, q.w)
         self.have_pose = True
 
+
+    # For world pose feedback, we can directly subscribe to a PoseStamped topic (Not used)
     def _on_pose(self, msg: PoseStamped) -> None:
         p = msg.pose.position
         q = msg.pose.orientation
@@ -125,6 +131,8 @@ class HolonomicPurePursuit(Node):
         self.yaw = yaw_from_quat(q.x, q.y, q.z, q.w)
         self.have_pose = True
 
+
+    # The main control function, called at a fixed rate by the timer
     def _on_timer(self) -> None:
         if not self.have_pose:
             return
@@ -203,6 +211,8 @@ class HolonomicPurePursuit(Node):
         cmd.twist.angular.z = float(omega)
         self.cmd_pub.publish(cmd)
 
+
+    # Helper function to find the closest point on the path to the robot
     def _closest_s_on_loop(self, x: float, y: float) -> Tuple[float, float]:
         """
         TODO:
@@ -243,6 +253,8 @@ class HolonomicPurePursuit(Node):
 
         return best_s, best_dist
 
+
+    # Helper function to compute the (x, y) point on the path at a given distance s along the path
     def _point_at_s(self, s_global: float) -> Tuple[float, float]:
         """
         TODO:
@@ -265,6 +277,8 @@ class HolonomicPurePursuit(Node):
             
         return self.waypoints[-1]
 
+
+    # Helper function to publish a zero velocity command to stop the robot
     def _publish_stop(self) -> None:
         cmd = TwistStamped()
         cmd.header.stamp = self.get_clock().now().to_msg()
@@ -273,11 +287,14 @@ class HolonomicPurePursuit(Node):
         cmd.twist.angular.z = 0.0
         self.cmd_pub.publish(cmd)
 
+
+    # Override destroy_node to ensure the robot is stopped when the node is shut down
     def destroy_node(self) -> bool:
         self._publish_stop()
         return super().destroy_node()
 
 
+# Main entry point
 def main() -> None:
     rclpy.init()
     node = HolonomicPurePursuit()
